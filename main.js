@@ -9,5 +9,6 @@ adicionaElementoNaLista("Terceiro");
 
 function adicionaElementoNaLista(texto){
 const li = document.createElement("li");
-li.textContent = "Primeiro";
+li.textContent = texto;
 olItens.appendChild(li);
+}
